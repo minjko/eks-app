@@ -1,10 +1,10 @@
 name: App with Github Actions, ArgoCD
 
 on:
-  workflow_dispatch
-  # push:
-  #   branches:
-  #     - main
+  # workflow_dispatch
+  push:
+    branches:
+      - main
 
 jobs:
   ci-cd:
