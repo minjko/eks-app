@@ -16,4 +16,9 @@ public class K8SApiController {
 		return "Status2 - returned by Pod";
 	}
 
+	@GetMapping(value = "/api/status3")
+	public String k8sApiTest3() {
+		return "Status3 - returned by Pod";
+	}
+
 }
